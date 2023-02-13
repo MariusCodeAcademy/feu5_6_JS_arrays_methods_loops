@@ -34,3 +34,17 @@ for (let i = 0; i < sent1.length; i++) {
     console.log(value);
   }
 }
+
+// sugeneruoti li elementus is colors masyvo i stringa ir ideti i ul su id 'list'
+// susikuriam kintamaji kuris bus visu li el hmtml stringas
+let liString = '';
+for (let i = 0; i < colors.length; i++) {
+  let index = i;
+  let value = colors[index];
+  // jungiam visus elementus ir stringa
+  liString = liString + `<li> ${value} </li>`;
+}
+
+console.log('liString ===', liString);
+// talpiname i html
+document.getElementById('list').innerHTML = liString;
