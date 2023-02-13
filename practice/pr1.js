@@ -17,9 +17,27 @@ for (let i = 0; i < randomArr.length; i++) {
 
 let typesArr = [];
 
+// for (let i = 0; i < randomArr.length; i++) {
+//   let element = randomArr[i];
+//   let elType = typeof element;
+//   typesArr.push(elType);
+// }
+// console.log('typesArr ===', typesArr);
+
+let numArr = [];
+let stringArr = [];
+let boolArr = [];
+
 for (let i = 0; i < randomArr.length; i++) {
   let element = randomArr[i];
   let elType = typeof element;
-  typesArr.push(elType);
+  // patikrinti tipa, ir deti i atitinkama kibireli
+  if (elType === 'number') {
+    numArr.push(element);
+  } else if (elType === 'boolean') {
+    boolArr.push(element);
+  } else if (elType === 'string') {
+    stringArr.push(element);
+  }
 }
-console.log('typesArr ===', typesArr);
+console.log({ numArr, stringArr, boolArr });
