@@ -14,3 +14,15 @@
    6.2. vietoj 'Sveiki' iterpti "Laba diena"
 
    6.3 tarp 'vardas' ir 'James' iterpti 'yra'
+
+7. let sent1 = [ 'Sveiki', 'mano', 'vardas', 'James' ]
+   let sent2 = [ '. ', 'is', 'Londono']
+
+   1. sujujngti masyvus i viena
+   2. suskaicuoti kiek kieviename masyve yra elementu
+   3. is sujungto masyvo grazinti atskirame masyve ['vardas', 'James', '. ', 'is' ]
+
+8. let randomArr = [11, 'cat', true, 4, 'mouse' 5, 9, 5, 76, false]
+
+   1. atspausdinti kiekvieno masyvo tipa consoleje
+   2. atspausdinti kiekvieno masyvo tipa naujame masyve

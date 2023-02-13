@@ -48,3 +48,12 @@ for (let i = 0; i < colors.length; i++) {
 console.log('liString ===', liString);
 // talpiname i html
 document.getElementById('list').innerHTML = liString;
+
+//
+let nums = [2, 5, 10];
+
+// atspausdinti konsoleje visas reiksmes padaugtintas is 2 su for ciklu
+// surasyti i nauja masyva dvigubas reiksmes is masyvo
+
+let doubleArr = [];
+// doubleArr.push()
