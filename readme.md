@@ -26,3 +26,4 @@
 
    1. atspausdinti kiekvieno masyvo tipa consoleje
    2. atspausdinti kiekvieno masyvo tipa naujame masyve
+   3. atrinkti skaiciu, booleanus ir stringus i atskirus masyvus
