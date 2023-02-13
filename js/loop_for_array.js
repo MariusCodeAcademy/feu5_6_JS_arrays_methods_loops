@@ -53,7 +53,17 @@ document.getElementById('list').innerHTML = liString;
 let nums = [2, 5, 10];
 
 // atspausdinti konsoleje visas reiksmes padaugtintas is 2 su for ciklu
+for (let i = 0; i < nums.length; i++) {
+  let element = nums[i];
+  console.log('element * 2 ===', element * 2);
+}
 // surasyti i nauja masyva dvigubas reiksmes is masyvo
 
 let doubleArr = [];
+for (let i = 0; i < nums.length; i++) {
+  let element = nums[i];
+  let double = element * 2;
+  doubleArr.push(double);
+}
 // doubleArr.push()
+console.log('doubleArr ===', doubleArr);
