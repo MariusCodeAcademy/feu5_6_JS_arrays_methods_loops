@@ -98,7 +98,7 @@ function theBegginingCode() {
 
 // 17. Sukurti funkciją, kuri ima masyvą ir grąžina visų
 // jo elementų sumą
-const numbersArray2 = [2, 12, 33];
+const numbersArray2 = [12, 2, 33];
 
 function sumArrValues(arr) {
   // kibirelis
@@ -115,3 +115,30 @@ const total1 = sumArrValues(numbersArray2);
 console.log('total1 ===', total1);
 const numArrTotal = sumArrValues(numbersArray);
 console.log('numArrTotal ===', numArrTotal);
+
+// 20. Sukurti funkciją, kuri ima masyvą ir grąžina mažiau-
+// sią skaičių masyve.
+
+// [12, 2, 33];
+
+function getMeMinValue(arr) {
+  // apsirasyti kazkokia maziausia reiksme
+  let currentMinValue = arr[0];
+  // ciklas per masyva
+  for (let i = 0; i < arr.length; i++) {
+    let sk = arr[i];
+    // lyginta maziausia reiksme su masyvo sk
+    if (sk < currentMinValue) {
+      // radom mazesne reiksme us pries tai buvusia maziausia
+      // jei radom masyve mazesne reiksme nei dabartine maziausia,
+      // tai perrasom maziausia reiksme
+      currentMinValue = sk;
+    }
+    // currentMinValue = Math.min(currentMinValue, sk);
+  }
+  console.log('currentMinValue ===', currentMinValue);
+  return currentMinValue;
+}
+
+getMeMinValue(numbersArray2);
+getMeMinValue(numbersArray);
