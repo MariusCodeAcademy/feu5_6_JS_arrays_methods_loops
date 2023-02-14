@@ -18,7 +18,11 @@
 14. Atrinkti kas antrą elementą
 15. Atrinkti kas penktą elementą
 16. Sukurti funkciją, kuri ima masyvą ir atspausdina kiek-
-    vieną jo reikšmę atskirai: [0] => 2. (nieko negrąžina)
+    vieną jo reikšmę atskirai:
+    [0] => 2.
+    [1] => 12.
+    [2] => 33.
+    (nieko negrąžina)
 17. Sukurti funkciją, kuri ima masyvą ir grąžina visų
     jo elementų sumą
 18. Sukurti funkciją, kuri ima masyvą ir grąžina visų ele-
@@ -29,3 +33,7 @@
     sią skaičių masyve.
 21. Sukurti funkciją, kuri ima masyvą ir išrikiuja jo ele-
     mentus nuo mažiausio iki didžiausio ir grąžina tą masyvą.
+
+[15, -3, 10, 0]
+
+//

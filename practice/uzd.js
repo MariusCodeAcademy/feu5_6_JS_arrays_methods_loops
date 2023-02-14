@@ -28,10 +28,31 @@ console.log('uzd5Arr === po', uzd5Arr);
 // 6. Atrinkti tiktai teigimų elementų masyvą
 
 // reikia tuscio masyvo kur desim teigiamus
+const positivesArr = [];
 
 // psiaudo kodas
+for (let i = 0; i < numbersArray.length; i++) {
+  let sk = numbersArray[i];
+  if (sk > 0) {
+    // console.log('sk ===', sk);
+    // jei reiksme teigiama dedam i kibireli
+    positivesArr.push(sk);
+  }
+}
+console.log('positivesArr ===', positivesArr);
 // sukurti cikla per visa masyva
 // - ciklo metu
 // tikrtinti ar sk yra daugiau uz 0
 // jei yra dedam i tuscia masyva
 // jei ne - praleidziam
+
+let lyginiaiArr = [];
+for (let i = 0; i < numbersArray.length; i++) {
+  let sk = numbersArray[i];
+  // ar sk lyginis
+  if (sk % 2 === 0) {
+    // console.log('sk ===', sk);
+    lyginiaiArr.push(sk);
+  }
+}
+console.log('lyginiaiArr ===', lyginiaiArr);
