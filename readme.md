@@ -22,7 +22,7 @@
    2. suskaicuoti kiek kieviename masyve yra elementu
    3. is sujungto masyvo grazinti atskirame masyve ['vardas', 'James', '. ', 'is' ]
 
-8. let randomArr = [11, 'cat', true, 4, 'mouse' 5, 9, 5, 76, false]
+8. (su ciklu !!!!!!!) let randomArr = [11, 'cat', true, 4, 'mouse' 5, 9, 5, 76, false]
 
    1. atspausdinti kiekvieno masyvo tipa consoleje
    2. atspausdinti kiekvieno masyvo tipa naujame masyve
