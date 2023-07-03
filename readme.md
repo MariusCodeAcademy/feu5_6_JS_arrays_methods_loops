@@ -25,5 +25,5 @@
 8. (su ciklu !!!!!!!) let randomArr = [11, 'cat', true, 4, 'mouse' 5, 9, 5, 76, false]
 
    1. atspausdinti kiekvieno masyvo tipa consoleje
-   2. atspausdinti kiekvieno masyvo tipa naujame masyve
+   2. pagaminti masyva kuriame yra visi sio masyvo tipai naujame masyve
    3. atrinkti skaiciu, booleanus ir stringus i atskirus masyvus
